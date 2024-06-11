@@ -14,7 +14,7 @@ model = model_from_json(loaded_model_json)
 
 model.load_weights('/content/content/models/model.h5')
 
-bot = telebot.TeleBot("7064253940:AAG27j_opz7ltR3iktOuiywhQ-oHDtuFx3c")  # Замените "YOUR_API_TOKEN" на фактический API-токен вашего бота
+bot = telebot.TeleBot("7064253940:AAG27j_opz7ltR3iktOuiywhQ-oHDtuFx3c")  
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
