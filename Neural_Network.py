@@ -20,10 +20,10 @@ files.upload()
 !cp kaggle.json ~/.kaggle/
 !chmod 600 ~/.kaggle/kaggle.json
 
-# Загружаем датасет с Kaggle
+
 !kaggle datasets download -d jessicali9530/stanford-dogs-dataset
 
-# Распаковываем датасет
+
 !unzip stanford-dogs-dataset.zip
 
 
